@@ -1,1 +1,26 @@
+body {
+  color: aliceblue;
+  background-color: gray;
 
+
+}
+div {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  border: black solid;
+  gap: 10px;
+  
+  
+
+  
+
+}
