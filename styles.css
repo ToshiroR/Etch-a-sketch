@@ -2,7 +2,7 @@ body {
   color: aliceblue;
   background-color: gray;
   min-height: 100vh;
-
+  margin: 0 auto;
 }
 
 
@@ -14,17 +14,20 @@ h1 {
 #container {
   background: rgb(255, 0, 0);
   display: flex;
-  width: 100em;
-  height: 100em;
+  flex-wrap: wrap;
+  
+  
+  
+  
   
   
 
 }
 
 .box {
-  width: 10em;
+  width: 5em;
+  height: 5em;
   border: black solid;
   flex: 1;
-  
   
 }
