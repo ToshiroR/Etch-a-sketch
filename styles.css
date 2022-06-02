@@ -13,21 +13,23 @@ h1 {
 
 #container {
   background: rgb(255, 0, 0);
+  width: 600px;
+  height: 600px;
+  margin: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   
-  
-  
-  
-  
-  
-
 }
 
-.box {
-  width: 5em;
-  height: 5em;
-  border: black solid;
+.row {
+  border: 1px solid black;
+  display: flex;
   flex: 1;
   
+}
+
+.column {
+  flex: 1;
+  border: 1px solid black;
+
 }
