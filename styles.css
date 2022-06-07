@@ -7,7 +7,7 @@ body {
 }
 
 #container {
-  background: rgb(255, 0, 0);
+  background: gray;
   width: 960px;
   height: 960px;
   margin: auto;
@@ -26,6 +26,7 @@ body {
 
 .column {
   flex: 1;
+  border: 1px solid, black;
   
 
 }
